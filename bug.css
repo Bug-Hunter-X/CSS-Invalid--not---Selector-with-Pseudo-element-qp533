@@ -1,0 +1,1 @@
+The following CSS rule uses an invalid selector, which may lead to unexpected behavior or failure to style elements as intended.  The issue is that `:not()` requires a valid selector within the parentheses and the usage shown here attempts to negate a pseudo-class that doesn't stand alone, hence causing the error.
